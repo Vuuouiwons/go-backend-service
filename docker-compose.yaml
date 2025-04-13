@@ -1,7 +1,7 @@
 services:
   go-backend:
     image: go-backend-test
+    container_name: go-backend-test
     build:
       dockerfile: Dockerfile
-    
-    
+    restart: always
