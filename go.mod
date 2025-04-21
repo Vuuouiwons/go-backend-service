@@ -1,4 +1,4 @@
-module example/backend-service
+module github.com/Vuuouiwons/go-backend-service
 
 go 1.24.2
 
