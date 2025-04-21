@@ -4,7 +4,7 @@ WORKDIR /build
 
 COPY . .
 
-RUN go build -o /bin/app ./main.go
+RUN go build -o /bin/app ./cmd/server/main.go
 
 FROM alpine:3.21.3
 
