@@ -1,7 +1,7 @@
 package db
 
 import (
-	"github.com/Vuuouiwons/go-backend-service/models"
+	"github.com/Vuuouiwons/go-backend-service/internal/models"
 )
 
 // albums slice to seed record album data.

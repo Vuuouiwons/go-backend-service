@@ -2,11 +2,11 @@ package controllers
 
 import (
 	"net/http"
-	
+
 	"github.com/gin-gonic/gin"
-	
-	"github.com/Vuuouiwons/go-backend-service/db"
-	"github.com/Vuuouiwons/go-backend-service/models"
+
+	"github.com/Vuuouiwons/go-backend-service/internal/db"
+	"github.com/Vuuouiwons/go-backend-service/internal/models"
 )
 
 func GetAlbums(c *gin.Context) {
