@@ -4,6 +4,9 @@ services:
     container_name: go-backend-test
     build:
       dockerfile: Dockerfile
+    environment:
+      - GIN_MODE=debug
+      # - GIN_MODE=release
     restart: always
     ports:
       - 8080:8080
