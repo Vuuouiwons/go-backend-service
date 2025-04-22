@@ -9,7 +9,7 @@ import (
 func addAblumsRoute(rg *gin.RouterGroup) {
 	albums := rg.Group("/albums")
 
-	albums.GET("/", controllers.GetAlbums)
-	albums.GET("/:id", controllers.GetAlbumByID)
-	albums.POST("/", controllers.PostAlbums)
+	albums.GET("", controllers.GetAlbums)
+	albums.GET(":id", controllers.GetAlbumByID)
+	albums.POST("", controllers.PostAlbums)
 }
